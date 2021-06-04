@@ -1,4 +1,4 @@
-package ru.job4j.calculate;
+package ru.job4j.calculator;
 
 public class MathFunc {
     public static void main(String[] args) {
@@ -6,7 +6,6 @@ public class MathFunc {
     }
 
     public static int func1(int x) {
-        int result = x;
-        return result;
+        return x;
     }
 }
