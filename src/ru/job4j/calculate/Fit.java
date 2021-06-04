@@ -2,11 +2,11 @@ package ru.job4j.calculate;
 
 public class Fit {
     public static double manWeight(short height) {
-        return (double) height * 1.15 / 100;
+        return ((double) height - 100) * 1.15;
     }
 
     public static double womanWeight(short height) {
-        return (double) height * 1.15 / 115;
+        return ((double) height - 110) * 1.15;
     }
 
     public static void main(String[] args) {
