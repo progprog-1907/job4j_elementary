@@ -22,4 +22,13 @@ public class MaxTest {
         int out = Max.max(left, right);
         Assert.assertEquals(expected, out);
     }
+
+    @Test
+    public void maxLeft4Right4() {
+        int left = 4;
+        int right = 4;
+        int expected = 4;
+        int out = Max.max(left, right);
+        Assert.assertEquals(expected, out);
+    }
 }
