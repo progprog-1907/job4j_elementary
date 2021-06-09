@@ -14,7 +14,7 @@ public class DivideBySixTest {
 
     @Test
     public void whenNumberDivideBy3AndNotEven() {
-        int in = 9;
+        int in = 27;
         String result = DivideBySix.checkNumber(in);
         String expected = "Исходное число делится на 3, но не является четным.";
         Assert.assertEquals(expected, result);
