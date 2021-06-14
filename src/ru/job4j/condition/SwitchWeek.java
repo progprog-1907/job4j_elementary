@@ -6,7 +6,7 @@ public class SwitchWeek {
 
         switch (day) {
             case 1:
-                name = "Понидельник.";
+                name = "Понидельник";
                 break;
             case 2:
                 name = "Вторник";
