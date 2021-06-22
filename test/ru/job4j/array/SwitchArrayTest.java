@@ -17,9 +17,9 @@ public class SwitchArrayTest {
     @Test
     public void whenSwap1to4() {
         int[] input = {1, 2, 3, 4, 5, 6};
-        int sourch = 1;
+        int source = 1;
         int dest = input.length - 2;
-        int[] result = SwitchArray.swap(input, sourch, dest);
+        int[] result = SwitchArray.swap(input, source, dest);
         int[] expected = {1, 5, 3, 4, 2, 6};
         Assert.assertArrayEquals(expected, result);
     }
