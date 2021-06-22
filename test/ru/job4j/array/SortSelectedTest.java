@@ -22,9 +22,9 @@ public class SortSelectedTest {
 
     @Test
     public void whenSort2() {
-        int[] data = new int[]{-5, 0, 12, -3, 10};
+        int[] data = new int[]{-5, 0, 12};
         int[] result = SortSelected.sort(data);
-        int[] expected = new int[] {-5, -3, 0, 10, 12};
+        int[] expected = new int[] {-5, 0, 12};
         Assert.assertArrayEquals(expected, result);
     }
 }
