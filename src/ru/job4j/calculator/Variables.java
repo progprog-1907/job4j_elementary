@@ -18,9 +18,5 @@ public class Variables {
         System.out.println(exists);
         char gender = 'Y';
         System.out.println(gender);
-
-        // int age = 18;
-        // float length = 78.0332;
-        // boolean baby = true;
     }
 }
