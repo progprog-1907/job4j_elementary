@@ -5,7 +5,6 @@ public class InfinityLoop {
         for (int index = 0; index < 10; index++) {
             System.out.println("infinity");
             index = index - 1;
-            // из за index-- у нас цикл остается всегда на нуле по этому цикл не заканчивается!
         }
     }
 }
