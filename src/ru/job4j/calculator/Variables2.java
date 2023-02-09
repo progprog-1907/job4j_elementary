@@ -10,6 +10,5 @@ public class Variables2 {
         int objeckts;
         boolean jobs;
         double fileSize;
-
     }
 }
